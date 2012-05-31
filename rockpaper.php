@@ -1,8 +1,8 @@
 <!html>
 <head>
 <title>Row Sham Bow</title>
-<link href="<?php echo base_url(); ?>assets/css/rockpaper.css" rel="stylesheet" type="text/css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<link href="assets/css/rockpaper.css" rel="stylesheet" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		var images = new Array()
@@ -13,9 +13,9 @@
 			}
 		}
 		preload(
-			"/assets/images/miscStuff/rockpaper/rock.gif",
-			"/assets/images/miscStuff/rockpaper/paper.gif",
-			"/assets/images/miscStuff/rockpaper/scissor.gif"
+			"assets/images/miscStuff/rockpaper/rock.gif",
+			"assets/images/miscStuff/rockpaper/paper.gif",
+			"assets/images/miscStuff/rockpaper/scissor.gif"
 		)
 		
 		$('#sp').click(function(){
@@ -88,13 +88,13 @@
 		switch(num)
 		{
 			case 0:
-				return '<img src="/assets/images/miscStuff/rockpaper/rock.gif" />';
+				return '<img src="assets/images/miscStuff/rockpaper/rock.gif" />';
 			break;
 			case 1:
-				return '<img src="/assets/images/miscStuff/rockpaper/paper.gif" />';
+				return '<img src="assets/images/miscStuff/rockpaper/paper.gif" />';
 			break;
 			case 2:
-				return '<img src="/assets/images/miscStuff/rockpaper/scissor.gif" />';
+				return '<img src="assets/images/miscStuff/rockpaper/scissor.gif" />';
 			break;
 		}
 	}

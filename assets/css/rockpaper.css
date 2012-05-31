@@ -1,0 +1,33 @@
+body{
+	background-color: #000;
+}
+#single-player{
+	color: #fff;
+	width: 260px;
+	margin: 30px auto;
+	border: 1px solid #fff;
+	padding: 5px;
+}
+#single-player-top{
+	width: 250px;
+	height: 150px;
+}
+#side1{
+	width: 125px;
+	height: 133px;
+	float: left;
+}
+#side2{
+	width: 125px;
+	height: 133px;
+	float: right;	
+}
+#side1img{
+	height: 133px;
+}
+#side2img{
+	height: 133px;
+}
+.clear{
+	clear: both;	
+}
