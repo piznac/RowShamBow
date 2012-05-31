@@ -2,6 +2,7 @@
 <head>
 <title>Row Sham Bow</title>
 <link href="<?php echo base_url(); ?>assets/css/rockpaper.css" rel="stylesheet" type="text/css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
 <script type="text/javascript">
 	$(document).ready(function() {
 		var images = new Array()
